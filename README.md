@@ -20,3 +20,16 @@ The directory structure is based on [The Pitchfork Layout (PFL)](https://api.css
 The following directories are not included in the repository, but there names are reserved.
 - `build/` : Temporary build directory.
 - `install/` : Temporary install directory.
+
+## How to setup Eigen
+(Instead of using a package manager, you may download source files of Eigen and place it in `external/` directory.)
+
+### Linux
+1. Install Eigen from package manager.
+```bash
+sudo apt install libeigen3-dev
+```
+2. use `find_package` in CMakeLists.txt
+```cmake
+find_package(Eigen3 REQUIRED)
+```
