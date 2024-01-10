@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.24)
-project(CppTemplateProject VERSION 0.1 LANGUAGES CXX)
+project(EigenExample VERSION 0.1 LANGUAGES CXX)
 
 # set language standard [TODO: use target_compile_features]
 set(CMAKE_CXX_STANDARD 20)
